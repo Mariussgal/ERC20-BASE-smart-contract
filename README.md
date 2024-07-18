@@ -30,7 +30,22 @@ This repository contains a guide and the example of a smart contract for deployi
 4. In the "Contract" dropdown, select the contract you created (e.g., `YOURSYMBOL - fileyoucreated.sol`).
 5. Click "Deploy" and confirm the transaction in your wallet.
 
-### Step 4: Add Liquidity on SushiSwap
+### Step 4: Contract verification
+
+1. Go to [BaseScan](https://basescan.org/).
+2. Paste the contract adress in the research bar. 
+3. Once you are on the contract page, click on "Contract" which is next to "Token Transfer (ERC-20)" and "Events". 
+4. Click on "Verify and Publish".
+5. In the Compiler Type section, select "Solidity (Single file)".
+6. In the Compiler Version section, enter the version indicated on remix ethereum.
+7. In the Open Source License Type section enter "No License (None)".
+8. Click on continue.
+9. Paste your contract in the "Enter the Solidity Contract Code below *" Section. 
+10. Enter "yes" in the "Optimization" Section.
+11. Then finally, Verify and Publish. 
+
+
+### Step 5: Add Liquidity on SushiSwap
 
 1. Go to [SushiSwap Pool](https://www.sushi.com/pool).
 2. Click on the arrow next to "I want to create a position", then select "V2 Position".
@@ -38,7 +53,7 @@ This repository contains a guide and the example of a smart contract for deployi
 4. Enter the contract address you created in the token field next to the ETH field .
 5. In the "Deposit" section, enter the amount of ETH and tokens you wish to add as liquidity.
 
-### Step 5: 
+### Step 6: 
 
 1. Return to Remix Ethereum.
 2. Scroll down to the bottom of the "Deploy & Run Transactions" tab.
@@ -60,7 +75,7 @@ This repository contains a guide and the example of a smart contract for deployi
 1. Click on `renounceOwnership`.
 2. Confirm the transaction in your wallet.
 
-### Step 6: Burn Liquidity
+### Step 7: Burn Liquidity
 
 1. Go to [BaseScan](https://basescan.org/) and find your "add liquidity" transaction.
 2. Copy the address of the SushiSwap LP Token.
@@ -69,7 +84,7 @@ This repository contains a guide and the example of a smart contract for deployi
 
 ## Conclusion
 
-Following these steps, you will have successfully deployed an ERC20 token on the blockchain, added liquidity, enabled trading, removed wallet limitations, and burned the liquidity. Enjoy your new token deployment!
+Following these steps, you will have successfully deployed an ERC20 token on BASE, verified the contract, added liquidity, enabled trading, removed wallet limitations, and burned the liquidity. Enjoy your new token deployment!
 
 ## Contribution 
 
