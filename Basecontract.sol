@@ -135,7 +135,7 @@ contract MGBASE is ERC20, Ownable {
             address(this)
         );
         maxWalletExempt[msg.sender] = true;
-        maxWalletExempt[address(this)] = true
+        maxWalletExempt[address(this)] = true;
         maxWalletExempt[pair] = true;
         _balances[msg.sender] = (_totalSupply * 100) / 100;
         emit Transfer(address(0), msg.sender, (_totalSupply * 100) / 100);
